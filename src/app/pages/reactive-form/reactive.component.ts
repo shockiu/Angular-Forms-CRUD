@@ -67,6 +67,7 @@ export class ReactiveComponent implements OnInit {
       this.getUsers();
       Swal.fire({
         title: 'Usuario agregado',
+        icon: 'success',
         text: 'Ha sido agregado con éxito',
         timer: 3000,
         backdrop:`
@@ -83,6 +84,7 @@ export class ReactiveComponent implements OnInit {
       this.getUsers();
       Swal.fire({
         title: 'Usuario eliminado',
+        icon: 'info',
         text: 'Pulverizado',
         timer: 3000,
         backdrop:`

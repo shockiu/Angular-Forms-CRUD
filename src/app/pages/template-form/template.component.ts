@@ -40,6 +40,7 @@ export class TemplateComponent implements OnInit {
       this.getUsers();
       Swal.fire({
         title: 'Usuario agregado',
+        icon: 'success',
         text: 'Ha sido agregado con éxito',
         timer: 2000,
         backdrop:`
@@ -56,6 +57,7 @@ export class TemplateComponent implements OnInit {
       this.getUsers();
       Swal.fire({
         title: 'Usuario eliminado',
+        icon: 'info',
         text: 'Pulverizado',
         timer: 3000,
         backdrop:`
